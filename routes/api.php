@@ -9,5 +9,5 @@ Route::get('/', function (Request $request) {
 });
 
 Route::get('m99', function (Request $request) {
-    return "Oiii";
+    return response("Oiii");
 });
