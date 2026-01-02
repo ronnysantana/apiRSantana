@@ -9,5 +9,5 @@ Route::get('/', function (Request $request) {
 });
 
 Route::get('m99', function (Request $request) {
-    return ['msg' => 'oii', 'value' => Number::currency(1091000500, in: 'BRL', locale: 'pt_BR')];
+    return response("Oiii");
 });
