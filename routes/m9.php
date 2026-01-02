@@ -7,6 +7,6 @@ use Illuminate\Support\Number;
 Route::get('/', function (Request $request) {
     return response([
         'route' => 'm9',
-        'value' => Number::currency(500.000.000, in: 'BRL', locale: 'pt_BR')
+        'value' => Number::currency(500.000.000, in: 'BRL', locale: 'pt_BR'),
     ]);
 });
